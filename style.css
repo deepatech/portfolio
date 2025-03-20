@@ -1,0 +1,285 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.bg-container-contact {
+    padding: 20px;
+    background-color: #0d2436;
+    background-size: cover;
+    height: 80vh;
+
+}
+
+.bg-container1-contact {
+    padding: 20px;
+    background-color: #001c32;
+    background-size: cover;
+    height: 20vh;
+}
+
+.card-container-contact {
+    height: 100px;
+
+}
+
+.paragraph-contact {
+    color: #9aa5b1;
+    font-family: Roboto;
+    font-size: 20px;
+}
+
+.paragraph3-contact {
+    color: #9aa5b1;
+    font-family: Roboto;
+    font-size: 20px;
+}
+
+#phone-contact {
+    color: #5a7184;
+    height: 50px;
+    width: 28px;
+    margin-right: 20px;
+}
+
+.phone-contact {
+    color: #5a7184;
+    height: 50px;
+    width: 28px;
+    margin-right: 20px;
+}
+
+.image-contact {
+    height: 100px;
+    width: 100px;
+    border-radius: 50px;
+}
+
+.heading-contact {
+    color: #cced00;
+    font-family: Roboto;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.bg-container-4-recent-blogs {
+    background-color: #52606d;
+    background-size: cover;
+    padding: 20px;
+    height: 100vh;
+}
+
+.heading-recent-blogs {
+    font-family: roboto;
+    font-size: 20px;
+    font-weight: bold;
+    font-style: italic;
+    color: #cced00;
+}
+
+.heading-1-recent-blogs {
+    font-family: roboto;
+    font-size: 50px;
+    font-weight: bold;
+    color: white;
+}
+
+.heading-2-recent-blogs {
+    font-family: roboto;
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+}
+
+.paragraph-recent-blogs {
+    font-family: roboto;
+    font-size: 20px;
+    color: #9aa5b1;
+}
+
+.card-image-recent-blogs {
+    width: 60px;
+    height: 60px;
+}
+
+.card-container-recent-blogs {
+    background-color: #323f4b;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.bg-container {
+    background-color: #3e4c59;
+    background-size: cover;
+    padding: 20px;
+
+}
+
+.heading {
+    color: #cced00;
+    font-size: 30px;
+    font-family: roboto;
+    font-weight: bold;
+
+}
+
+#readmore {
+    color: #cced00;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.paragraph1 {
+    font-size: 30px;
+    color: white;
+    font-family: roboto;
+}
+
+.paragraph2 {
+    font-size: 27px;
+    color: #9aa5b1;
+    font-family: roboto;
+}
+
+.card-container {
+    background-color: #323f4b;
+    border-radius: 10px;
+}
+
+.heading2 {
+    color: white;
+    font-size: 50px;
+    font-family: roboto;
+    font-weight: bold;
+}
+
+.card-image {
+    height: 250px;
+    width: 100%;
+}
+
+.heading3 {
+    color: #9aa5b1;
+    font-size: 20px;
+    font-family: roboto;
+    font-weight: bold;
+}
+
+.bg-container1 {
+    background-color: #323f4b;
+    background-size: cover;
+}
+
+.bg-container2 {
+    background-color: #1f2933;
+    background-size: cover;
+}
+
+.heading1 {
+    font-family: caviet;
+    font-size: 40px;
+    font-weight: bold;
+    color: #cced00;
+}
+
+.heading3 {
+    font-family: caviet;
+    font-size: 30px;
+    font-weight: bold;
+    color: #cced00;
+}
+
+.paragraph {
+    color: #9aa5b1;
+    font-family: roboto;
+    font-size: 20px;
+    font-weight: normal;
+
+}
+
+.icon-heading {
+    font-size: 30px;
+    color: white;
+    font-weight: bold;
+}
+
+.icons-container {
+    width: 600px;
+    height: 200px;
+    background-color: #323f4b;
+    border-radius: 20px;
+}
+
+.heading2 {
+    font-family: caviet;
+    font-size: 50px;
+    font-weight: bold;
+    color: white;
+}
+
+.icons {
+    height: 100px;
+    width: 100px;
+}
+
+.deepak {
+    width: 100%;
+    height: 100vh;
+
+}
+
+.navbar-icon {
+    border-style: solid;
+    background-color: transparent;
+    border-color: #4b6cc1;
+    border-width: 3px;
+    height: 60px;
+    width: 60px;
+    padding: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+}
+
+.bg-container-3 {
+    background-color: #191a1d;
+    height: 100vh;
+    background-size: cover;
+}
+
+.heading {
+    color: white;
+}
+
+.jenny {
+    color: #4b6cc1;
+}
+
+.button {
+    border-radius: 5px;
+    background-color: #4b6cc1;
+    color: white;
+    font-size: 12px;
+    width: 90px;
+    height: 30px;
+    border-style: solid;
+}
+
+.image {
+    height: 400px;
+    width: 400px;
+    margin-top: 25px;
+}
+
+.paragraph {
+    font-size: 30px;
+    font-weight: bold;
+    font-family: roboto;
+}
+
+.paragraph1 {
+    font-size: 20px;
+
+    font-family: roboto;
+    color: #9aa5b1;
+}
+
+.color {
+    color: white;
+}

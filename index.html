@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="style.css"/>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="sectionHome">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <a class="navbar-brand" href="#">
+                <div class="navbar-icon text-center">
+                    <p class="paragraph"> D.</p>
+                </div>
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <div class="ml-auto">
+                    <ul class="navbar-nav">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item" style="color:white;">
+                            <a class="nav-link" href="#" onclick="display('sectionfacts')"> About me </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#" onclick="display('sectionportfolio')">Projects</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#" onclick="display('sectionrecentblogs')">Recent Blogs</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#" onclick="display('sectioncontact')">Contact me</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <div class="bg-container-3">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-md-6 order-md-2">
+                        <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/portfolio-banner-img.png" class="image" />
+                    </div>
+                    <div class="col-12 col-md-6 mt-5 order-md-1">
+                        <h1 class="heading"> Hey, I am <snap class="jenny"> Deepak </snap>
+                        </h1>
+                        <p class="paragraph1"> Iam a Frontend Developer & Mentor. </p>
+                    </div>
+                    <div class="col-12 order-md-3">
+                        <button class="button" onclick="display('sectioncontact')"> Contact Me</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="sectionfacts">
+        <div class="container-fluid bg-container1 p-3">
+            <div class="row">
+                <div class="col-12 d-md-none d-block mt-3 mb-3">
+                    <h1 class="heading1"> Facts</h1>
+                </div>
+                <div class="col-12 d-md-none d-block">
+                    <h1 class="heading2"> About me </h1>
+                </div>
+                <div class="col-12 col-md-4 mb-3 shadow">
+                    <img src="https://res.cloudinary.com/dheb4f3vi/image/upload/v1688622096/Deepak_photo_1_2_nhsfrs.jpg" class="deepak" />
+                </div>
+                <div class="col-12 col-md-6 order-md-2 d-none d-md-block mt-3 mb-3">
+                    <h1 class="heading1 mb-3"> Facts</h1>
+                    <h1 class="heading2 mb-3"> About me </h1>
+                    <p class="paragraph mb-3"> My name is Deepak Chandra Kumar, and iam Currently looking for a job in Frontend Development. I have a bachelor's degree in Mechanical Engineering. People find me to be an upbeat, self-motivated team player with excellent communication skills. </p>
+                    <p class="paragraph mb-3"> I am a dedicated person with a family of four. I enjoy reading, and the knowledge and perspective that my reading gives me have strengthened my teaching skills and presentation abilities. </p>
+                </div>
+                <div class="col-12 d-md-none d-block">
+                    <p class="paragraph"> My name is Deepak Chandra Kumar, and iam Currently looking for a job in Frontend Development. I have a bachelor's degree in Mechanical Engineering. People find me to be an upbeat, self-motivated team player with excellent communication skills. </p>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid bg-container2 p-3 pl-3">
+            <div class="row">
+                <div class="col-12 mt-4 m-4">
+                    <h1 class="heading3"> Skills : </h1>
+                </div>
+                <div class="col-12 col-md-6 html-css d-flex mb-3">
+                    <div class="icons-container ml-3 mr-4 text-center pt-3">
+                        <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/portfolio-skills-html-img.png" class="icons" />
+                        <h1 class="icon-heading mt-3"> HTML </h1>
+                    </div>
+                    <div class="icons-container ml-3 text-center pt-3">
+                        <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/portfolio-skills-css-img.png" class="icons" />
+                        <h1 class="icon-heading mt-3"> CSS </h1>
+                    </div>
+                </div>
+                <div class="col-6 col-md-3 html-css d-flex mb-3">
+                    <div class="icons-container ml-3 mr-4 text-center pt-3">
+                        <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/portfolio-skills-bootstrap-img.png" class="icons" />
+                        <h1 class="icon-heading mt-3"> Bootstrap </h1>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 html-css d-flex mb-3">
+                    <div class="icons-container ml-3 mr-4 text-center pt-3">
+                        <img src="https://res.cloudinary.com/dheb4f3vi/image/upload/v1703938014/67-678384_transparent-javascript-icon-png-png-download_ijo6bs.png" class="icons" />
+                        <h1 class="icon-heading mt-3"> Javascript </h1>
+                    </div>
+                    <div class="icons-container ml-3 text-center pt-3">
+                        <img src="https://res.cloudinary.com/dheb4f3vi/image/upload/v1703938254/800px-Python-logo-notext.svg_gpvbhr.png" class="icons" />
+                        <h1 class="icon-heading mt-3"> Python </h1>
+                    </div>
+                </div>
+                <div class="col-6 col-md-3 html-css d-flex mb-3">
+                    <div class="icons-container ml-3 mr-4 text-center pt-3">
+                        <img src="https://res.cloudinary.com/dheb4f3vi/image/upload/v1703938380/sql-database-sql-azure-icon-1955x2048-4pmty46t_izxwqq.png" class="icons" />
+                        <h1 class="icon-heading mt-3"> SQL </h1>
+                    </div>
+                </div>
+                <div class="col-12">
+                    <button class="btn btn-dark" onclick="display('sectionHome')"> back </button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="sectionportfolio">
+        <div class="container-fliuid bg-container">
+            <div class="row">
+                <div class="col-12">
+                    <h1 class="heading mt-5 mb-3"> Portfolio </h1>
+                </div>
+                <div class="col-12">
+                    <h1 class="heading2 mb-3"> Projects I have done</h1>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="card-container pb-2 mb-3">
+                        <img src="https://res.cloudinary.com/dheb4f3vi/image/upload/v1670748813/samples/landscapes/beach-boat.jpg" class="card-image mb-3" />
+                        <div class="mb-3">
+                            <h1 class="heading3 ml-3 mb-3"> Web design </h1>
+                            <p class="paragraph1 ml-3 mb-3"> Tourism </p>
+                            <p class="paragraph2 ml-3 mb-3"> Tourism is a Simple Static Website. We can use this layout for building the other websites... </p>
+                            <a class="paragraph3 ml-3 mb-4" id="readmore" href="https://deepakchandra.ccbp.tech/"> Read More
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right arrow" viewBox="0 0 16 16">
+                                    <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z" />
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="card-container pb-2 mb-3">
+                        <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/portfolio-project-2-img.png" class="card-image mb-3" />
+                        <div class="mb-3">
+                            <h1 class="heading3 ml-3 mb-3"> Web design </h1>
+                            <p class="paragraph1 ml-3 mb-3"> Happy Meals </p>
+                            <p class="paragraph2 ml-3 mb-3"> Happy Meals is the best-in-class food ordering page today. With interactive UI/UX and simple call to actions... </p>
+                            <a class="paragraph3 ml-3 mb-4" id="readmore" href=""> Read More
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right arrow" viewBox="0 0 16 16">
+                                    <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z" />
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12">
+                <button class="btn btn-dark" onclick="display('sectionfacts')"> back </button>
+            </div>
+        </div>
+    </div>
+    <div id="sectionrecentblogs">
+        <div class="bg-container-4-recent-blogs">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <h1 class="heading-recent-blogs"> services </h1>
+                        <h1 class="heading-1-recent-blogs"> What I do </h1>
+                    </div>
+                    <div class="col-12 col-md-6 mr-3 col-lg-4 shadow card-container-recent-blogs mb-3">
+                        <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/portfolio-web-design-img.png" class="card-image-recent-blogs mb-3" />
+                        <h1 class="heading-2-recent-blogs mb-3"> static Websites </h1>
+                        <p class="paragraph-recent-blogs mb-3"> A Static Website contains Web pages with fixed content. Each page is developed using HTML and CSS and displays the same information to every visitor.</p>
+                    </div>
+                    <div class="col-12 col-md-5 mr-3 col-lg-4 shadow card-container-recent-blogs mb-3">
+                        <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/portfolio-web-development-img.png" class="card-image-recent-blogs mb-3" />
+                        <h1 class="heading-2-recent-blogs mb-3"> Responsive Web design </h1>
+                        <p class="paragraph-recent-blogs mb-3"> Responsive Web design is the approach that suggests that design and development should respond to the user's behaviour and environment based on screen size, platform and orientation.</p>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-3 shadow card-container-recent-blogs mb-3">
+                        <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/portfolio-customize-img.png" class="card-image-recent-blogs mb-3" />
+                        <h1 class="heading-2-recent-blogs mb-3"> Customisable Layouts </h1>
+                        <p class="paragraph-recent-blogs mb-3"> Customisable sites are templates with set layouts. You may be able to change photos and colors, but your site will look similar to many other sites due to the template. The same goes for...</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12">
+                <button class="btn btn-dark" onclick="display('sectionportfolio')"> back </button>
+            </div>
+        </div>
+    </div>
+    <div id="sectioncontact">
+        <div class="bg-container-contact">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-md-3 mr-3 d-flex flex-row card-container-contact mt-5 ">
+                        <img src="https://res.cloudinary.com/dheb4f3vi/image/upload/v1688622096/Deepak_photo_1_2_nhsfrs.jpg" class="image-contact " />
+                        <div class="ml-3">
+                            <h1 class="heading-contact mb-4"> Deepak </h1>
+                            <p class="paragraph-contact "> Frontend Developer</p>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-3 mt-5">
+                        <h1 class="heading-contact mb-4"> Phone No. </h1>
+                        <div class="d-flex text-down">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-telephone-fill" id="phone-contact" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd" d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z" />
+                            </svg>
+                            <p class="paragraph-contact mt-3"> 9121809249 </p>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-3 mt-5 mr-3">
+                        <h1 class="heading-contact mb-4"> E-mail </h1>
+                        <div class="d-flex text-down">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-envelope" id="phone-contact" viewBox="0 0 16 16">
+                                <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4Zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2Zm13 2.383-4.708 2.825L15 11.105V5.383Zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741ZM1 11.105l4.708-2.897L1 5.383v5.722Z" />
+                            </svg>
+                            <p class="paragraph-contact mt-3 "> deepakchandrakumar123@gmail.com </p>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-3 mt-5">
+                        <h1 class="heading-contact mb-4"> Phone No. </h1>
+                        <div class="d-flex text-down">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-map-fill" id="phone-contact" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd" d="M16 .5a.5.5 0 0 0-.598-.49L10.5.99 5.598.01a.5.5 0 0 0-.196 0l-5 1A.5.5 0 0 0 0 1.5v14a.5.5 0 0 0 .598.49l4.902-.98 4.902.98a.502.502 0 0 0 .196 0l5-1A.5.5 0 0 0 16 14.5V.5zM5 14.09V1.11l.5-.1.5.1v12.98l-.402-.08a.498.498 0 0 0-.196 0L5 14.09zm5 .8V1.91l.402.08a.5.5 0 0 0 .196 0L11 1.91v12.98l-.5.1-.5-.1z" />
+                            </svg>
+                            <p class="paragraph-contact mt-3"> 71-31-114/8, Malkapuram, Visakhapatnam, Andhra Pradesh, India.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="bg-container1-contact">
+            <i class="fa-regular fa-circle-c" style="color: #d3d9e4;"></i>
+            <h1 class="paragraph3-contact mb-3"> 2020 by Deepak Chandra Kumar. Created with Bootstrap. </h1>
+            <div class="col-12 d-flex">
+                <button class="btn btn-dark" onclick="display('sectionrecentblogs')"> back </button>
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-house ml-auto" onclick="display('sectionHome')" id="phone-contact" viewBox="0 0 16 16">
+                    <path d="M8.707 1.5a1 1 0 0 0-1.414 0L.646 8.146a.5.5 0 0 0 .708.708L2 8.207V13.5A1.5 1.5 0 0 0 3.5 15h9a1.5 1.5 0 0 0 1.5-1.5V8.207l.646.647a.5.5 0 0 0 .708-.708L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293L8.707 1.5ZM13 7.207V13.5a.5.5 0 0 1-.5.5h-9a.5.5 0 0 1-.5-.5V7.207l5-5 5 5Z" />
+                </svg>
+            </div>
+
+        </div>
+    </div>
+    <script type="text/javascript" src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/js/ccbp-ui-kit.js"></script>
+</body>
+
+</html>
